@@ -4,7 +4,51 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Create your DevCard</title>
+    <link
+      rel="card"
+      href="https://cdn.jsdelivr.net/gh/luxonauta/luxa@1.1/dist/expanded/luxa.css"
+    />
+    <link rel="card" href="card.css" />
   </head>
-  <body></body>
+  <body>
+    <main class="create card">
+      <section>
+        <h1>Create your DevCard</h1>
+        <div class="name">
+          <input type="text" id="name" name="name" value="Your Full Name"><br><br>
+        </div>
+        <div class="aboutMe">
+          <input type="text" id="aboutMe" name="aboutMe" value="About Me"><br><br>
+        </div>
+        <div class="code">
+          <p>Technologies you Know:</p>
+          <input type="checkbox" id="lang1" name="lang1" value="html">
+          <label for="lang1">HTML</label>
+          <input type="checkbox" id="lang2" name="lang2" value="css">
+          <label for="lang2">CSS</label>
+          <input type="checkbox" id="lang3" name="lang3" value="js">
+          <label for="lang3">JS</label>
+          <input type="checkbox" id="lang4" name="lang4" value="git">
+          <label for="lang4">Git</label>
+          <input type="checkbox" id="lang5" name="lang5" value="react">
+          <label for="lang5">React</label>
+          <input type="checkbox" id="lang6" name="lang6" value="nodejs">
+          <label for="lang6">Node.js</label><br>   
+        </div>
+        <div class="url">
+          <br>
+          <input type="text" id="gitUrl" name="gitUrl" value="Github URL"><br>
+          <input type="text" id="twitterUrl" name="twitterUrl" value="Twitter URL"><br><br>
+        </div>
+        <div class="favourite">
+          <input type="text" id="book" name="book" value="Favourite Books (Seperate by comma)"><br>
+          <input type="text" id="artist" name="artist" value="Favourite Artists (Seperate by comma)"><br>
+        </div>
+        <div class="submit">
+          <input type="submit" value="Create Site">
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
